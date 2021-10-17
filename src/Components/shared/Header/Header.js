@@ -10,7 +10,11 @@ const Header = () => {
     <div>
       {/* navbar  */}
 
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        style={{ background: "#CED1DE", color: "black" }}
+      >
         <Container>
           <Navbar.Brand as={Link} to="/">
             Doctors Lab

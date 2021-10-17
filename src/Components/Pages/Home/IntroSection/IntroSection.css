@@ -1,0 +1,19 @@
+/* intro container  */
+.intro-container {
+  background-image: url("https://cdn.pixabay.com/photo/2020/11/02/19/52/doctor-5707722_960_720.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-container > div {
+  background-color: rgba(0, 0, 0, 0.288);
+  color: white;
+  width: 50%;
+  min-height: 30vh;
+  border-radius: 1rem;
+}
+
+/* img design control  */

@@ -1,8 +1,8 @@
 import React from "react";
 import { Card, Col } from "react-bootstrap";
 
-const Service = ({ service }) => {
-  const { name, img, desc, price, id } = service;
+const Doctor = ({ doctor }) => {
+  const { name, img, desc, price, id } = doctor;
   return (
     <div>
       <Col>
@@ -27,4 +27,4 @@ const Service = ({ service }) => {
   );
 };
 
-export default Service;
+export default Doctor;

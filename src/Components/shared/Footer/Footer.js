@@ -1,17 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./Footer.css";
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-dark mt-5 p-2 text-white">
+      <footer
+        className="mt-5 p-4 "
+        style={{ background: "#CED1DE", color: "black" }}
+      >
         <div className="row align-items-center">
           <div className="col-md-3">
-            <img
-              style={{ width: "200px" }}
-              src="https://github.com/ProgrammingHero1/hot-onion-restaurent/blob/master/logo2.png?raw=true{img}"
-              alt=""
-            />
+            <h1 as={Link} to="/">
+              Doctors Lab
+            </h1>
           </div>
           <div className="col-md-3">
             <ul>
