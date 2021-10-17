@@ -1,0 +1,42 @@
+/* form container  */
+.form-container {
+  padding: 10px;
+  box-shadow: 0px 10px 10px 10px #ddd;
+  border-radius: 3rem;
+}
+/* input field */
+.form-container input {
+  display: block;
+  width: 80%;
+  padding: 10px 20px;
+  border: none;
+  border-bottom: 2px solid #f9bc14;
+  border-radius: 1rem;
+  outline: none;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+/* control input design  */
+.form-container input:nth-child(3) {
+  border-bottom: none;
+  background-color: tomato;
+  color: white;
+  font-size: 20px;
+  margin-top: 2rem;
+}
+/* input focus design  */
+.form-container input:focus {
+  outline: 1px solid tomato;
+  transition: all 0.5s ease-in-out;
+  margin-top: 40px;
+}
+/* input focus design  with nath child*/
+.form-container input:nth-child(3) {
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+/* button design  */
+.button {
+  font-family: "Poppins";
+}

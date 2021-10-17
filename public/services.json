@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "img": "https://cdn.pixabay.com/photo/2016/01/19/15/05/doctor-1149149_960_720.jpg",
+    "name": "Professor Dr. AKM Fazlul Hoque",
+    "desc": "Prof. Dr. AKM Fazlul Haque is one of the best Colorectal Surgeon in Bangladesh and the Subcontinent. He has a long 25 years of experience in the field of colon & rectal surgery. He has a lot of reputation in the world ranking. He was the establisher Chairman and Professor of the Department of Colorectal Surgery in Bangabandhu Sheikh Mujib Medical University (BSMMU). It is the only Medical University in Bangladesh.",
+    "price": 2500
+  },
+  {
+    "id": 2,
+    "img": "https://cdn.pixabay.com/photo/2017/07/23/10/44/dentist-2530990_960_720.jpg",
+    "name": "Professor Dr. Mahbub H Khan",
+    "desc": "Professor Dr. Mahbub H Khan is one of the most reputed Liver and Gastroenterology specialists in Bangladesh. He completed his MBBS with the highest-ranking result. He was awarded Leo Gold Medal for first place in the third professional examination among the students of Sir Salimullah, Mymensing, and Sher-E-Bangla Medical colleges of Bangladesh.",
+    "price": 2500
+  },
+  {
+    "id": 3,
+    "img": "https://cdn.pixabay.com/photo/2019/07/30/15/57/dentist-4373290_960_720.jpg",
+    "name": "Dr. Mohammad Jahangir Talukder",
+    "desc": "Dr. Mohammad Jahangir Talukder is a reputed Internal Medicine specialist in Bangladesh. He is experienced in the treatment of Acute medical emergency, Respiratory, Endocrine, and Infectious diseases. He has a long 40 years’ experience in this field. He successfully completed his MBBS from MAG Osmani Medical College, Sylhet under Chittagong University in 1978. After he successfully finished his internship at Sir Salimullah Medical College. He was served as a medical",
+    "price": 2500
+  },
+  {
+    "id": 4,
+    "img": "https://cdn.pixabay.com/photo/2017/03/13/21/41/scientist-2141259_960_720.jpg",
+    "name": "Professor Dr. Sheikh Nesaruddin Ahmed",
+    "desc": "Professor Dr. Sheikh Nesaruddin Ahmed is one of the best Internal Medicine & Reumatology in Bangladesh. He was the former professor and Head Department of Medicine, Dhaka Medical College Hospital. He has been providing his medical services for 11 years with a high reputation in Bangladesh. Dr. Sheikh Nesaruddin Ahmed successfully completed his MBBS Degrees from a renowned Medical College in Bangladesh. He also acquired a professional degree in DTM & H, MRCP (Edin), FRCP (Edin), and FCPS (Honorary).",
+    "price": 2500
+  },
+  {
+    "id": 5,
+    "img": "https://images.pexels.com/photos/2280551/pexels-photo-2280551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Professor Dr. H A M Nazmul Ahsan",
+    "desc": "Professor Dr. H A M Nazmul Ahsan is the reputed Medicine Specialist in Bangladesh. He is a professor in the Department of Medicine, Popular Medical College & Hospital, Dhaka. He completed his MBBS from a renowned Medical College in Bangladesh with high- ranking result. He also qualified in FCPS, FRCP (Glasgow), FRCP (Edin), FACP (USA).",
+    "price": 2500
+  },
+  {
+    "id": 6,
+    "img": "https://cdn.pixabay.com/photo/2017/03/14/03/20/woman-2141808_960_720.jpg",
+    "name": "Professor Dr. Ferdous Ara J. Janan",
+    "desc": "Professor Dr. Ferdous Ara J. Janan is another renowned Medicine Specialists doctor in Bangladesh. She was the former Head of Department of Medicine, Dhaka Medical College. She completed her MBBS from Dhaka Medical College. She also qualified in MD ( USA ), FIBA ( Eng. ), FCPS ( Med. ), FRCP ( Edin. ), FACP ( USA ). At present, Dr. Ferdous Ara J. Janan practices her expertise at Popular Diagnostic Centre Ltd. – Shyamoli Branch, Dhaka. Located in House No: (22/7) 29, Bir Uttam A.N.M Nuruzzaman Sorak,(Babor road) Block b, Mohammadpur, Dhaka-1207, Bangladesh. For appointment contact: +880-2- 9111911.",
+    "price": 2500
+  },
+  {
+    "id": 7,
+    "img": "https://images.pexels.com/photos/4033148/pexels-photo-4033148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Professor Dr. A K M Musa",
+    "desc": "Professor Dr. A K M Musa is one of the well-known Diabetologist & Medicine Specialist in Bangladesh. He is the professor of the Department of Medicine, Ibrahim Medical College. He completed MBBS with the highest-ranking result from the Dhaka Medical College. He also acquired FCPS (Medicine), MCPS (Medicine), DTCD (Dhk), and Gold Medalist (FCPS).",
+    "price": 2500
+  },
+  {
+    "id": 8,
+    "img": "https://images.pexels.com/photos/6129049/pexels-photo-6129049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Professor Dr. R. K. Saha",
+    "desc": "Professor Dr. R. K. Saha is another best Medicine Specialist in Bangladesh. He was the former Principal and Professor and Head Department of Medicine, Sher-E-Bangla Medical College, Barisal, and Uttara Women's Medical College Hospital, Dhaka. He is qualified in MBBS, FCPS (Med).At present, he practices his expertise at Uttara Crescent Hospital and Uttara Aichi Hospital. For appointment contact: +88 01711245746",
+    "price": 2500
+  },
+  {
+    "id": 9,
+    "img": "https://images.pexels.com/photos/4173239/pexels-photo-4173239.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Assistant Professor Dr. Mohiuddin Ahmed",
+    "desc": "Assistant Professor Dr. Mohiuddin Ahmed is one of the best-reputed Medicine and Neuromedicine Specialist in Bangladesh. Now, he is the Assistant Professor of Neurology, Dhaka Medical College Hospital, Dhaka. He completed his MBBS from Dhaka Medical College and BCS in Health. He also qualified in FCPS (Medicine), MD (Neuromedicine), MACP (USA). At present, he practices his expertise at Popular Diagnostic Center, Uttara (Unit-2). Located in House: 25, Road: 7, Sector: 4, Jashim Uddin Moar, Uttara, Dhaka. For appointment contact: 09613 787805.",
+    "price": 2500
+  },
+  {
+    "id": 10,
+    "img": "https://images.pexels.com/photos/4173239/pexels-photo-4173239.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "name": "Professor Dr. Mirza Mohammad Hiron",
+    "desc": "Professor Dr. Mirza Mohammad Hiron is another Medicine and Chest Specialist in Bangladesh. He is the Professor & Director, Respiratory Medicine National Institute of Diseases of the Chest and Hospital. He completed his MBBS from a renowned Medical College in Bangladesh. he also qualified in FCPS ( medicine ), MD ( Chest ), FCCP ( USA ), FRCP ( Ireland ), FRCP ( Edin ), FRCP ( Glasgow ). At present, he practices his expertise at Ibn Sina Diagnostic & Imaging Center. Located in House No: 48, Road No: 9/A, Dhanmondi, Satmasjid Road, Dhaka -1209, Bangladesh. For appointment contact: +880-2-9126625, 9128835-7.",
+    "price": 2500
+  }
+]

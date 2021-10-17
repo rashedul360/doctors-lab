@@ -1,0 +1,25 @@
+/* dashboard design  */
+.user-info-container {
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 0px 10px 32px 19px #ddd;
+  justify-content: center;
+  border-radius: 3rem;
+}
+/* image design  */
+.user-info-container img {
+  border-radius: 50%;
+  border: 2px solid #9370db;
+}
+/* verify icon design  */
+.fa-check-circle {
+  color: #4294ff;
+}
+/*  handle verification message */
+.alert {
+  text-transform: capitalize;
+}
+/* name  */
+.alert span {
+  color: #9370db;
+}
