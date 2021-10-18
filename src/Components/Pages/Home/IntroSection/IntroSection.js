@@ -3,6 +3,7 @@ import { useHistory } from "react-router";
 import "./IntroSection.css";
 const IntroSection = () => {
   const history = useHistory();
+  // redirect method
   const handleAppointment = () => {
     history.push("/doctors");
   };
@@ -10,6 +11,7 @@ const IntroSection = () => {
     <div className="intro-container text-white ">
       <div className="d-flex justify-content-center align-items-center">
         <div>
+          {/* intro section message  */}
           <h1>we are improving to your health</h1>
           <p className="w-75 mx-auto">
             We are moving forward from our start to take a mission. Our
@@ -19,7 +21,9 @@ const IntroSection = () => {
             city whose service man has never decreased but is increasing every
             day.
           </p>
+          {/* emargency part  */}
           <p>for emargency call: (01312416730)</p>
+          {/* booking part */}
           <button onClick={handleAppointment} className="btn btn-success mb-5">
             book an appointment
           </button>

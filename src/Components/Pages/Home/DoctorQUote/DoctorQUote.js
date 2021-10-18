@@ -5,6 +5,7 @@ const DoctorQUote = () => {
     <div>
       <div className="row mt-5 align-items-center w-100 mb-5 ">
         <div className="col-md-6">
+          {/* our missaion image  */}
           <img
             className="img-fluid"
             src="https://cdn.pixabay.com/photo/2016/11/08/05/29/surgery-1807541_960_720.jpg"
@@ -12,6 +13,7 @@ const DoctorQUote = () => {
           />
         </div>
         <div className="col-md-6">
+          {/* our mission message  */}
           <h4>Our Mession</h4>
           <p className="w-75 text-start mx-auto mt-5">
             The Department of Health under the Ministry of Health and Family

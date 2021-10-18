@@ -8,6 +8,7 @@ import Services from "../Services/Services";
 const HomePage = () => {
   return (
     <div>
+      {/* home page components  */}
       <IntroSection />
       <DoctorQUote />
       <Brances />

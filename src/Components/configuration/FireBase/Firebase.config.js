@@ -1,3 +1,4 @@
+// confugure function
 const firebaseConfig = {
   apiKey: "AIzaSyApJjzVw63m-VtiB4-WvQ2sVRERVDO-1zs",
   authDomain: "programming-squad.firebaseapp.com",

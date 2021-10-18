@@ -4,14 +4,17 @@ import { useParams } from "react-router";
 const ServiceInfo = () => {
   const { slug } = useParams();
   const [info, setInfo] = useState([]);
+  // fetching data from server
   useEffect(() => {
     fetch("/services.json")
       .then((res) => res.json())
+      // setData
       .then((data) => setInfo(data));
   }, [slug]);
+  // find specefig data
   const finded = info.filter((td) => td.key === parseInt(slug));
-  console.log(info);
   return (
+    // use data to show on UI
     <div className="mt-5 mb-5">
       <h1 className="mb-5">
         information for <span>{finded[0]?.name}</span>{" "}

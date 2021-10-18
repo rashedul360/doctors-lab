@@ -2,6 +2,7 @@ import React from "react";
 import "./ClientCount.css";
 const ClientCount = () => {
   return (
+    // our daily progress
     <div>
       <div className="w-100 mx-auto row justify-content-around clients-container p-5 text-white text-center align-items-center">
         <div className="col-md-3">

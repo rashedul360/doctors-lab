@@ -5,16 +5,19 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div>
+      {/* footer part  */}
       <footer
         className="mt-5 p-4 "
         style={{ background: "#23282D", color: "white" }}
       >
+        {/* logo with some information part  */}
         <div className="row align-items-center">
           <div className="col-md-3">
             <h1 as={Link} to="/">
               Doctors Lab
             </h1>
           </div>
+          {/* some importanr links part */}
           <div className="col-md-3 text-start">
             <ul>
               <li>
@@ -37,6 +40,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+          {/* about this website part  */}
           <div className="col-md-3">
             <h4>About</h4>
             <p className="text-start">
@@ -48,6 +52,7 @@ const Footer = () => {
               increasing every day.
             </p>
           </div>
+          {/* some social icons  */}
           <div className="col-md-3 social-links">
             <i className="fab fa-facebook"></i>
             <i className="fab fa-google"></i>
@@ -58,10 +63,12 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+      {/* copyright section  */}
       <p className="text-center mb-0 bg-dark text-white">
         All &copy; all copyright reserved 2021 by{" "}
         <span>
           {" "}
+          {/* designer or CEO or founder name  */}
           <a
             target="_blank"
             href="https://www.facebook.com/rashedulislam2004/"

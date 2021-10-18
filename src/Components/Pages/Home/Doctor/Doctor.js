@@ -2,8 +2,10 @@ import React from "react";
 import { Card, Col } from "react-bootstrap";
 
 const Doctor = ({ doctor }) => {
+  // destracture form props doctor
   const { name, img, desc, price, id } = doctor;
   return (
+    // use property
     <div>
       <Col>
         <Card>

@@ -2,8 +2,10 @@ import React from "react";
 import { Card, Col } from "react-bootstrap";
 
 const Branch = ({ branch }) => {
+  // distracture from props branch
   const { img, name, service, open } = branch;
   return (
+    // use data
     <div>
       <Col>
         <Card style={{ border: "none" }}>

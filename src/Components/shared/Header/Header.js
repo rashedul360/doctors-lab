@@ -16,11 +16,13 @@ const Header = () => {
         style={{ background: "#23282D", color: "white" }}
       >
         <Container>
+          {/* website name */}
           <NavLink to="/">
             <h3>Doctors Lab</h3>
           </NavLink>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
+            {/* important pase shortcut  */}
             <Nav className="me-auto">
               <NavLink to="/doctors">Doctors</NavLink>
               <NavLink as={Link} to="/reset">

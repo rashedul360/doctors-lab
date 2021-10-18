@@ -32,6 +32,9 @@ const useFirebase = () => {
       })
       .catch((error) => {
         setError(error.message);
+      })
+      .finally(() => {
+        setIsLoading(false);
       });
   };
   // facebook sign in
@@ -67,6 +70,7 @@ const useFirebase = () => {
   };
   // log out method
   const logOut = () => {
+    setIsLoading(true);
     signOut(auth)
       .then(() => {
         // empty user
@@ -75,6 +79,9 @@ const useFirebase = () => {
       .catch((error) => {
         // setError
         setError(error.message);
+      })
+      .finally(() => {
+        setIsLoading(false);
       });
   };
   // update information
@@ -106,7 +113,12 @@ const useFirebase = () => {
   };
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
-      user && setUser(user);
+      if (user) {
+        setUser(user);
+      } else {
+        setUser({});
+      }
+      setIsLoading(false);
     });
 
     return () => unsubscribe;
@@ -115,6 +127,7 @@ const useFirebase = () => {
   return {
     user,
     error,
+    isLoading,
     googleSignIn,
     loginUser,
     registration,

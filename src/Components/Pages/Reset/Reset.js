@@ -5,10 +5,13 @@ import ResetImg from "../../Images/reset.svg";
 import "./reset.css";
 const Reset = () => {
   const [email, setEmail] = useState("");
+  // destracture form useAuth
   const { resetPassword } = useAuth();
+  // email collection
   const handleEmail = (e) => {
     setEmail(e.target.value);
   };
+  // collect data
   const handleFrom = (e) => {
     e.preventDefault();
     resetPassword(email);
