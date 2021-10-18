@@ -10,7 +10,7 @@ My live site [Doctors lab](https://programming-squad.web.app/).
 
 ## image hosted on IBB
 
-## The image has been optimized as much as possible
+## The image has been optimized from tinyPNG as much as possible
 
 ## logout method included
 
