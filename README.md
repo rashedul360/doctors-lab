@@ -8,6 +8,10 @@ My live site [Doctors lab](https://programming-squad.web.app/).
 
 ## here some pages like login, registration, dashboard, doctors,reset (this option will you apply to reset registred user password), and services
 
+## image hosted on IBB
+
+## The image has been optimized as much as possible
+
 ## logout method included
 
 ## blue badge verification applied. with the help of firebase. you can find out this option form dashboard

@@ -8,7 +8,7 @@ const DoctorQUote = () => {
           {/* our missaion image  */}
           <img
             className="img-fluid"
-            src="https://cdn.pixabay.com/photo/2016/11/08/05/29/surgery-1807541_960_720.jpg"
+            src="https://i.ibb.co/0YSnRpg/4.jpg"
             alt=""
           />
         </div>
