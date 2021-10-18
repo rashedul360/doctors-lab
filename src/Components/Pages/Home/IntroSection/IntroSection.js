@@ -4,7 +4,7 @@ import "./IntroSection.css";
 const IntroSection = () => {
   const history = useHistory();
   const handleAppointment = () => {
-    history.push("/services");
+    history.push("/doctors");
   };
   return (
     <div className="intro-container text-white ">

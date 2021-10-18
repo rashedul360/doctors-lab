@@ -12,11 +12,13 @@ const ServiceInfo = () => {
   const finded = info.filter((td) => td.key === parseInt(slug));
   console.log(info);
   return (
-    <div>
-      <h1>info for {slug}</h1>
+    <div className="mt-5 mb-5">
+      <h1 className="mb-5">
+        information for <span>{finded[0]?.name}</span>{" "}
+      </h1>
       <img src={finded[0]?.img} alt="" />
-      <h4>{finded[0]?.name}</h4>
-      <p>{finded[0]?.desc}</p>
+      <h4 className="mt-5">{finded[0]?.name}</h4>
+      <p className="w-50 mx-auto text-start">{finded[0]?.desc}</p>
     </div>
   );
 };

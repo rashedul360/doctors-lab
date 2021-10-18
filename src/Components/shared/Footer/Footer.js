@@ -58,6 +58,19 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+      <p className="text-center mb-0 bg-dark text-white">
+        All &copy; all copyright reserved 2021 by{" "}
+        <span>
+          {" "}
+          <a
+            target="_blank"
+            href="https://www.facebook.com/rashedulislam2004/"
+            rel="noreferrer"
+          >
+            rashedul islam
+          </a>
+        </span>
+      </p>
     </div>
   );
 };

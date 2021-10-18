@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Nav, MenuBar, Navbar } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
-
+import { useHistory } from "react-router-dom";
+import "./Header.css";
 const Header = () => {
   const { user, logOut } = useAuth();
-
   return (
     <div>
       {/* navbar  */}
@@ -16,46 +16,46 @@ const Header = () => {
         style={{ background: "#CED1DE", color: "black" }}
       >
         <Container>
-          <Navbar.Brand as={Link} to="/">
-            Doctors Lab
-          </Navbar.Brand>
+          <NavLink to="/">
+            <h3>Doctors Lab</h3>
+          </NavLink>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link as={Link} to="/doctors">
-                Doctors
-              </Nav.Link>
-              <Nav.Link as={Link} to="/reset">
+              <NavLink to="/doctors">Doctors</NavLink>
+              <NavLink as={Link} to="/reset">
                 Reset user
-              </Nav.Link>
-              <Nav.Link as={Link} to="/services">
-                Services
-              </Nav.Link>
+              </NavLink>
+              <NavLink to="/services">Services</NavLink>
             </Nav>
 
             {/* login and registration part  */}
             <Nav>
-              {!user.email && (
-                <Nav.Link as={Link} to="/login">
-                  login
-                </Nav.Link>
-              )}
-              <Nav.Link as={Link} to="/register">
+              {!user.email && <NavLink to="/login">login</NavLink>}
+              <NavLink as={Link} to="/register">
                 {user.email ? (
-                  <Nav.Link as={Link} to="/userinfo">
+                  <>
                     {user.displayName} {"  "}
                     <img
                       style={{ width: "40px", borderRadius: "50%" }}
                       src={user.photoURL}
                       alt="user photo"
                     />{" "}
-                  </Nav.Link>
+                  </>
                 ) : (
                   "Registration"
                 )}
-              </Nav.Link>
+              </NavLink>
               {/* redirect when logout  */}
-              <Nav.Link as={Link} to="/login">
+              {user.email && (
+                <Link
+                  to="/userinfo"
+                  className="d-flex justify-content-center align-items-center"
+                >
+                  Dashboard
+                </Link>
+              )}
+              <NavLink to="/login">
                 {/* log out  */}
                 <span className="mx-2">
                   {user.email && (
@@ -64,7 +64,7 @@ const Header = () => {
                     </button>
                   )}
                 </span>
-              </Nav.Link>
+              </NavLink>
             </Nav>
           </Navbar.Collapse>
         </Container>
