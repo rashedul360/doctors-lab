@@ -31,7 +31,7 @@ const Login = () => {
       {user.email ? (
         // components
         // <UserInfo></UserInfo>
-        history.push("/userinfo")
+        history.push("/")
       ) : (
         <div
           className="mx-auto mt-5"

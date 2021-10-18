@@ -37,7 +37,7 @@ const Registration = () => {
       {/* condition  */}
       {user.email ? (
         // <UserInfo></UserInfo>
-        history.push("/userinfo")
+        history.push("/")
       ) : (
         <div>
           <div className="mx-auto mt-5" style={{ width: "90%" }}>

@@ -22,10 +22,15 @@ const Header = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link as={Link} to="/services">
-                services
+              <Nav.Link as={Link} to="/doctors">
+                Doctors
               </Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
+              <Nav.Link as={Link} to="/reset">
+                Reset user
+              </Nav.Link>
+              <Nav.Link as={Link} to="/services">
+                Services
+              </Nav.Link>
             </Nav>
 
             {/* login and registration part  */}
@@ -37,14 +42,14 @@ const Header = () => {
               )}
               <Nav.Link as={Link} to="/register">
                 {user.email ? (
-                  <div>
+                  <Nav.Link as={Link} to="/userinfo">
                     {user.displayName} {"  "}
                     <img
                       style={{ width: "40px", borderRadius: "50%" }}
                       src={user.photoURL}
-                      alt=""
+                      alt="user photo"
                     />{" "}
-                  </div>
+                  </Nav.Link>
                 ) : (
                   "Registration"
                 )}

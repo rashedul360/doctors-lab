@@ -14,14 +14,26 @@ const DoctorQUote = () => {
         <div className="col-md-6">
           <h4>Our Mession</h4>
           <p className="w-75 text-start mx-auto mt-5">
-            We are moving forward from our start to take a mission. Our
-            organization is a reputed organization in this city. I also have
-            several nicknames. We are getting a lot from our customers. The main
-            purpose of this is that we are one of the service providers in this
-            city whose service man has never decreased but is increasing every
-            day. I am really happy to be able to serve our customers as well as
-            our reputation from the customers and we have been able to instill
-            confidence in the minds of hundreds of our customers.
+            The Department of Health under the Ministry of Health and Family
+            Welfare of the Government of the People's Republic of Bangladesh is
+            working to ensure public health services to all levels of
+            Bangladesh. The Hospital and Clinic Branch of the Department of
+            Health is the regulatory branch of all government hospitals at
+            secondary and tertiary level in Bangladesh and all private
+            hospitals, clinics, diagnostic centers and blood banks. This branch
+            is working towards ensuring quality of healthcare of the mentioned
+            healthcare providers by coordinating with other branches of the
+            Department of Health and departments of the Ministry of Health and
+            Family Welfare keeping in view the Sustainable Development Goals
+            (SDGs). To this end, the Hospitals and Clinics Branch confirms all
+            types of requirements for government hospitals of 100 beds and above
+            at district and divisional level within Bangladesh and issues
+            licenses and renews licenses to all private hospitals, clinics,
+            diagnostic centers and blood banks. This branch is working hard to
+            implement the 4th Health, Population and Nutrition Sector Program
+            with the help of Line Directors, Program Managers and Deputy
+            Managers to implement the operational plan called 'Hospital Service
+            Management'.
           </p>
         </div>
       </div>

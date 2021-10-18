@@ -15,29 +15,37 @@ const Footer = () => {
               Doctors Lab
             </h1>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 text-start">
             <ul>
               <li>
-                <p href="">item number1</p>
+                <Link to="/">home</Link>
               </li>
               <li>
-                <p href="">item number2</p>
+                <Link to="/reset">reset user</Link>
               </li>
               <li>
-                <p href="">item number3</p>
+                <Link to="/userinfo">User information</Link>
               </li>
               <li>
-                <p href="">item number4</p>
+                <Link to="/services">Services</Link>
+              </li>
+              <li>
+                <Link to="/Login">Login</Link>
+              </li>
+              <li>
+                <Link to="/Register">Register</Link>
               </li>
             </ul>
           </div>
           <div className="col-md-3">
             <h4>About</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Praesentium architecto, soluta veritatis recusandae error culpa
-              suscipit debitis deleniti ad? Quo ullam minus cum porro nihil
-              sapiente blanditiis qui laudantium reiciendis.
+            <p className="text-start">
+              We are moving forward from our start to take a mission. Our
+              organization is a reputed organization in this city. I also have
+              several nicknames. We are getting a lot from our customers. The
+              main purpose of this is that we are one of the service providers
+              in this city whose service man has never decreased but is
+              increasing every day.
             </p>
           </div>
           <div className="col-md-3 social-links">

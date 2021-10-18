@@ -1,0 +1,44 @@
+[
+  {
+    "key": 1,
+    "img": "https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2018/04/23/16/35/arizona2x.jpg",
+    "name": "Doctors Lab in Arizona",
+    "service": "Arizona",
+    "open": "24 hours"
+  },
+  {
+    "key": 2,
+    "img": "https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2018/04/23/16/35/florida2x.jpg",
+    "name": "Doctors Lab in Florida",
+    "service": "Florida",
+    "open": "24 hours"
+  },
+  {
+    "key": 3,
+    "img": "https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2018/04/23/16/35/minnesota2x.jpg",
+    "name": "doctors lab in India",
+    "service": "India",
+    "open": "24 hours"
+  },
+  {
+    "key": 4,
+    "img": "https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2018/04/23/16/35/healthsystem2x.jpg",
+    "name": "Doctors lab in malyesia",
+    "service": "malyesia",
+    "open": "24 hours"
+  },
+  {
+    "key": 5,
+    "img": "https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2020/08/07/19/04/mayoclinichealthcarelondon.jpg",
+    "name": "Doctors lab in dhaka",
+    "service": "bangladesh",
+    "open": "24 hours"
+  },
+  {
+    "key": 6,
+    "img": "https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2018/04/23/16/35/florida2x.jpg",
+    "name": "doctors lab in joypurhat",
+    "service": "joypurhat",
+    "open": "24 hours"
+  }
+]

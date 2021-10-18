@@ -9,10 +9,11 @@ import UserInfo from "./Components/Pages/userInfo/userInfo";
 import PrivetRoute from "./Components/Pages/PrivetRoute/PrivetRoute";
 import Header from "./Components/shared/Header/Header";
 import Footer from "./Components/shared/Footer/Footer";
-import Services from "./Components/Pages/Home/Doctors/Doctors";
 import HomePage from "./Components/Pages/Home/HomePage/HomePage";
 import NotFound from "./Components/Pages/NotFound/NotFound";
 import Doctors from "./Components/Pages/Home/Doctors/Doctors";
+import Services from "./Components/Pages/Home/Services/Services";
+import ServiceInfo from "./Components/Pages/ServiceInfo/ServiceInfo";
 
 function App() {
   return (
@@ -36,6 +37,15 @@ function App() {
             <Route path="/reset">
               <Reset></Reset>
             </Route>
+            <Route path="/services">
+              <Services></Services>
+            </Route>
+            <Route path="/doctors">
+              <Doctors></Doctors>
+            </Route>
+            <PrivetRoute path="/info/:slug">
+              <ServiceInfo></ServiceInfo>
+            </PrivetRoute>
             <PrivetRoute path="/userinfo">
               <UserInfo></UserInfo>
             </PrivetRoute>
