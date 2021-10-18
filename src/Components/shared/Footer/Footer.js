@@ -65,7 +65,7 @@ const Footer = () => {
       </footer>
       {/* copyright section  */}
       <p className="text-center mb-0 bg-dark text-white">
-        All &copy; all copyright reserved 2021 by{" "}
+        All &copy; copyright reserved 2021 by{" "}
         <span>
           {" "}
           {/* designer or CEO or founder name  */}
