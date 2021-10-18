@@ -39,9 +39,9 @@ function App() {
             <Route path="/reset">
               <Reset></Reset>
             </Route>
-            <Route path="/services">
+            <PrivetRoute path="/services">
               <Services></Services>
-            </Route>
+            </PrivetRoute>
             <Route path="/doctors">
               <Doctors></Doctors>
             </Route>
