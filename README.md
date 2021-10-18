@@ -10,6 +10,8 @@ My live site [Doctors lab](https://programming-squad.web.app/).
 
 ## logout method included
 
+## blue badge verification applied. with the help of firebase. you can find out this option form dashboard
+
 ## your can login with email or registred with email , name and password. i will added the email password authentication
 
 ## `noted` i am not includes the facebook login method this button added for design purposes.
