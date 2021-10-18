@@ -19,7 +19,7 @@ const ServiceInfo = () => {
       <h1 className="mb-5">
         information for <span>{finded[0]?.name}</span>{" "}
       </h1>
-      <img src={finded[0]?.img} alt="" />
+      <img className="img-fluid" src={finded[0]?.img} alt="" />
       <h4 className="mt-5">{finded[0]?.name}</h4>
       <p className="w-50 mx-auto text-start">{finded[0]?.desc}</p>
     </div>

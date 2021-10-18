@@ -1,7 +1,7 @@
 .contact-container {
   width: 90%;
   margin: 0 auto;
-  height: 100vh;
+  min-height: 100vh;
 }
 .contact-form-container {
   box-shadow: 0px 6px 21px 26px #ddd;
