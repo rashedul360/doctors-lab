@@ -15,13 +15,17 @@ const Doctor = ({ doctor }) => {
             <Card.Text>{desc.slice(0, 300)} [...]</Card.Text>
             <div className="d-flex justify-content-around">
               <div>
-                <h4>veset: {price}</h4>
+                <h4>
+                  Appointment fee: <span>${price}</span>
+                </h4>
               </div>
               <div>
                 <h4>doctor ID: {id}</h4>
               </div>
             </div>
-            <button className="btn btn-warning mt-3">more details</button>
+            <button className="btn btn-warning mt-3">
+              <i className="fas fa-arrow-circle-right"></i> more details
+            </button>
           </Card.Body>
         </Card>
       </Col>

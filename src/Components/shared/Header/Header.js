@@ -18,7 +18,9 @@ const Header = () => {
         <Container>
           {/* website name */}
           <NavLink to="/">
-            <h3>Doctors Lab</h3>
+            <h3>
+              <i className="fas fa-user-nurse"></i> Doctors Lab
+            </h3>
           </NavLink>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -30,6 +32,7 @@ const Header = () => {
               </NavLink>
               <NavLink to="/services">Services</NavLink>
               <NavLink to="/brances">Brances</NavLink>
+              <NavLink to="/contact">Contact</NavLink>
             </Nav>
 
             {/* login and registration part  */}
@@ -55,6 +58,11 @@ const Header = () => {
                   to="/userinfo"
                   className="d-flex justify-content-center align-items-center"
                 >
+                  <span>
+                    {" "}
+                    <i className="fas fa-user"></i>
+                  </span>
+                  {"  - "}
                   Dashboard
                 </Link>
               )}
@@ -63,7 +71,7 @@ const Header = () => {
                 <span className="mx-2">
                   {user.email && (
                     <button className="btn btn-danger" onClick={logOut}>
-                      logout
+                      <i className="fas fa-sign-out-alt"></i> logout
                     </button>
                   )}
                 </span>

@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="row align-items-center">
           <div className="col-md-3">
             <h1 as={Link} to="/">
-              Doctors Lab
+              <i className="fas fa-user-nurse"></i> Doctors Lab
             </h1>
           </div>
           {/* some importanr links part */}

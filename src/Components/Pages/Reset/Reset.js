@@ -39,7 +39,7 @@ const Reset = () => {
                   type="submit"
                   id="button-addon2"
                 >
-                  Reset
+                  <i className="fas fa-street-view"></i> Reset
                 </Button>
               </InputGroup>
             </form>

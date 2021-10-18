@@ -1,0 +1,18 @@
+.contact-container {
+  width: 90%;
+  margin: 0 auto;
+  height: 100vh;
+}
+.contact-form-container {
+  box-shadow: 0px 6px 21px 26px #ddd;
+  padding: 20px;
+  border-radius: 1rem;
+}
+@media only screen and (max-width: 660px) {
+  .contact-container {
+    margin-top: 5rem;
+  }
+  .contact-container img {
+    margin-top: 100px;
+  }
+}

@@ -25,7 +25,7 @@ const IntroSection = () => {
           <p>for emargency call: (01312416730)</p>
           {/* booking part */}
           <button onClick={handleAppointment} className="btn btn-success mb-5">
-            book an appointment
+            <i className="fas fa-arrow-circle-right"></i> book an appointment
           </button>
         </div>
       </div>

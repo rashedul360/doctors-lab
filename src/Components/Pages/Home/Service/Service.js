@@ -27,7 +27,7 @@ const Service = ({ service }) => {
             </h5>
             {/* more information part  */}
             <button onClick={handleInfo} className="btn btn-warning">
-              Learn more
+              <i className="fas fa-arrow-circle-right"></i> Learn more
             </button>
           </Card.Body>
         </Card>
