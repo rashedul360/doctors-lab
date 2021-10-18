@@ -6,7 +6,7 @@ My live site [Doctors lab](https://programming-squad.web.app/).
 
 ## this website is made for a Clinic. named myDoctors Lab
 
-## here some pages like login, registration, dashboard, doctors,reset user (this option will you apply to reset registred user password), and services
+## here some pages like login, registration, dashboard, doctors,reset (this option will you apply to reset registred user password), and services
 
 ## logout method included
 

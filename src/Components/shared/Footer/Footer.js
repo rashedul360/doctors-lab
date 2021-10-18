@@ -7,7 +7,7 @@ const Footer = () => {
     <div>
       <footer
         className="mt-5 p-4 "
-        style={{ background: "#CED1DE", color: "black" }}
+        style={{ background: "#23282D", color: "white" }}
       >
         <div className="row align-items-center">
           <div className="col-md-3">

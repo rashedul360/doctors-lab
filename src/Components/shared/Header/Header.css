@@ -1,3 +1,8 @@
 a {
   padding: 10px;
+  color: white;
+}
+a:hover {
+  color: rgb(136, 128, 128);
+  transition: all 0.2s ease-in;
 }

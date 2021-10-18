@@ -13,7 +13,7 @@ const Header = () => {
       <Navbar
         collapseOnSelect
         expand="lg"
-        style={{ background: "#CED1DE", color: "black" }}
+        style={{ background: "#23282D", color: "white" }}
       >
         <Container>
           <NavLink to="/">
@@ -24,9 +24,10 @@ const Header = () => {
             <Nav className="me-auto">
               <NavLink to="/doctors">Doctors</NavLink>
               <NavLink as={Link} to="/reset">
-                Reset user
+                Reset
               </NavLink>
               <NavLink to="/services">Services</NavLink>
+              <NavLink to="/brances">Brances</NavLink>
             </Nav>
 
             {/* login and registration part  */}

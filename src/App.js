@@ -14,6 +14,7 @@ import NotFound from "./Components/Pages/NotFound/NotFound";
 import Doctors from "./Components/Pages/Home/Doctors/Doctors";
 import Services from "./Components/Pages/Home/Services/Services";
 import ServiceInfo from "./Components/Pages/ServiceInfo/ServiceInfo";
+import Brances from "./Components/Pages/Home/Brances/Brances";
 
 function App() {
   return (
@@ -42,6 +43,9 @@ function App() {
             </Route>
             <Route path="/doctors">
               <Doctors></Doctors>
+            </Route>
+            <Route path="/brances">
+              <Brances></Brances>
             </Route>
             <PrivetRoute path="/info/:slug">
               <ServiceInfo></ServiceInfo>
