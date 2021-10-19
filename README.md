@@ -12,11 +12,15 @@ My live site [Doctors lab](https://programming-squad.web.app/).
 
 ## The image has been optimized from tinyPNG as much as possible
 
+## usign google font
+
+## using font awesome font
+
 ## logout method included
 
 ## blue badge verification applied. with the help of firebase. you can find out this option form dashboard
 
-## your can login with email or registred with email , name and password. i will added the email password authentication
+## your can login with email or registred with email , name and password. i will added the email password authentication (i mean 2 option included.)
 
 ## `noted` i am not includes the facebook login method this button added for design purposes.
 

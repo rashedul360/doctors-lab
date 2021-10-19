@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
 import UserInfo from "../../Pages/userInfo/userInfo";
 import { useHistory } from "react-router-dom";
+import loginImg from "../../Images/login.jpg";
 import "./login.css";
 const Login = () => {
   // common function
@@ -96,11 +97,7 @@ const Login = () => {
             </div>
             {/* login image  */}
             <div className="col-md-6">
-              <img
-                className="img-fluid mt-5"
-                src="https://assignment-9-edu-tech.netlify.app/static/media/login.0d545116.jpg"
-                alt=""
-              />
+              <img className="img-fluid mt-5" src={loginImg} alt="" />
             </div>
           </div>
         </div>
