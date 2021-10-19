@@ -4,7 +4,7 @@ const NotFound = () => {
   return (
     <div>
       {/* bot found image  */}
-      <img src={notFound} alt="" />
+      <img className="img-fluid" src={notFound} alt="" />
     </div>
   );
 };

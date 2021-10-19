@@ -18,6 +18,7 @@ const Footer = () => {
             </h1>
           </div>
           {/* some importanr links part */}
+
           <div className="col-md-3 text-start">
             <ul>
               <li>

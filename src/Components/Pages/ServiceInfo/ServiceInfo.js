@@ -16,7 +16,7 @@ const ServiceInfo = () => {
   return (
     // use data to show on UI
     <div className="mt-5 mb-5">
-      <h1 className="mb-5">
+      <h1 className="mb-5 container">
         information for <span>{finded[0]?.name}</span>{" "}
       </h1>
       <img className="img-fluid" src={finded[0]?.img} alt="" />

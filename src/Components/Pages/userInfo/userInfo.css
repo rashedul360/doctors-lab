@@ -24,3 +24,8 @@
 .alert span {
   color: #9370db;
 }
+@media only screen and (max-width: 500px) {
+  .user-email-address {
+    width: 70% !important;
+  }
+}
