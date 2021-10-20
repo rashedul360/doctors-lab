@@ -71,7 +71,12 @@ const Login = () => {
                 {/* submit information  */}
                 <input type="submit" value="Login" />
                 {/* error handle  */}
-                <p className="mt-2">{error}</p>
+                <p className="mt-2 text-danger">
+                  {error ===
+                  "Cannot read properties of undefined (reading 'push')"
+                    ? ""
+                    : error}
+                </p>
 
                 {/* other sign in method */}
                 <div>

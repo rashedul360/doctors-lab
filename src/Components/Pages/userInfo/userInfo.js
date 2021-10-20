@@ -82,7 +82,11 @@ const UserInfo = () => {
             </div>
           )}
           {/* error message  */}
-          <p className="text-danger mt-2">{error}</p>
+          <p className="mt-2 text-danger">
+            {error === "Cannot read properties of undefined (reading 'push')"
+              ? ""
+              : error}
+          </p>
         </div>
       </div>
     </div>
