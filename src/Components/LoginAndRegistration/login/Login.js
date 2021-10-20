@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
 import UserInfo from "../../Pages/userInfo/userInfo";
 import { useHistory } from "react-router-dom";
@@ -12,6 +12,8 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const { googleSignIn, loginUser, user, error } = useAuth();
   const history = useHistory();
+  const location = useLocation();
+  const location_uri = location.state?.from;
   // collect email
   const handleEmail = (e) => {
     setEmail(e.target.value);
@@ -23,7 +25,7 @@ const Login = () => {
   // submit handaler
   const useFormControl = (e) => {
     e.preventDefault();
-    loginUser(email, password);
+    loginUser(email, password, location_uri);
   };
 
   return (
@@ -31,8 +33,11 @@ const Login = () => {
       {/* condition  */}
       {user.email ? (
         // components
-        // <UserInfo></UserInfo>
-        history.push("/")
+        location.state?.from == undefined ? (
+          history.push("/")
+        ) : (
+          history.push(`${location.state?.from?.pathname}`)
+        )
       ) : (
         <div
           className="mx-auto mt-5"

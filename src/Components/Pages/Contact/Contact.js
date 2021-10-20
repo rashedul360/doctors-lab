@@ -36,7 +36,7 @@ const Contact = () => {
             </InputGroup>
 
             <InputGroup>
-              <InputGroup.Text>With textarea</InputGroup.Text>
+              <InputGroup.Text>your massege</InputGroup.Text>
               <FormControl as="textarea" aria-label="With textarea" />
             </InputGroup>
             <div className="mt-3 mb-3">

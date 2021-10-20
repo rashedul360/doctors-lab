@@ -14,11 +14,14 @@ import {
 import { useState } from "react";
 import { useEffect } from "react";
 import userPhoto from "../Images/user.png";
+import { useHistory } from "react-router-dom";
+
 const googleProvider = new GoogleAuthProvider();
 const useFirebase = () => {
   const [user, setUser] = useState({});
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(true);
+  const history = useHistory();
 
   const auth = getAuth();
   // google sign in method
@@ -56,10 +59,11 @@ const useFirebase = () => {
   };
 
   // login method
-  const loginUser = (email, password) => {
+  const loginUser = (email, password, location_uri) => {
     signInWithEmailAndPassword(auth, email, password)
       .then((result) => {
         // setuser on state
+        history.push(location_uri);
         setUser(result.user);
         setError("");
       })
